@@ -3,6 +3,9 @@ const inp=readline.createInterface({
   input:process.stdin
 });
 inp.on("line",(data)=>{
+  const n=[];
+  for(i=0;i<=n;i++)
+  {
   if(data%2==0)
   {
     console.log("Even");
@@ -10,5 +13,6 @@ inp.on("line",(data)=>{
   else
   {
     console.log("Odd");
+  }
   }
 });
