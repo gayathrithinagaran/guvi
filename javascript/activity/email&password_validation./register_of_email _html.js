@@ -5,7 +5,7 @@
 </head>
 <body onload='document.form1.text1.focus() && document.form1.Password.focus()'>
 <div>
-<h2>Email & password validation</h2>
+<h2>email and pwd validation</h2?</head>
 <form name="form1" action="#">
 <ul>
 </br>Email<input type='text' name='text1'/><br>
@@ -19,4 +19,3 @@
 </script>
 </body>
 </html>
-© 2020 GitHub, Inc.
