@@ -13,3 +13,4 @@ inp.on("close",()=>{
     v+=s;
   }
   console.log(v);
+  );
