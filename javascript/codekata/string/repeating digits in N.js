@@ -1,4 +1,4 @@
-onst readline=require('readline');
+const readline=require('readline');
 const inp=readline.createInterface({
   input:process.stdin});
 const n=[];
