@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="Viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="">
+</head>
+<style type="text/css">
+*{
+padding:0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body{
+font-family: montserrat;
+}
+nav{
+background:#0082e6;
+height: 80px;
+width: 100%;
+}
+label.login{
+color:white;
+font-size: 36px;
+line-height: 80px;
+padding: 0 100px;
+font-weight: bold;
+}
+nav ul{
+float:right;
+margin-right: 20px;
+}
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 25px;
+}
+nav ul li a{
+color: white;
+font-size: 17px;
+}
+
+#sdiv{
+width: 100%;
+top:1px;
+height: 555px;
+background-color: #0082e6;
+}
+#t1{
+position: relative;
+left:55px;
+top: 25px;
+width: 35%;
+height: 155px;
+}
+p a{
+color: grey;
+}
+#but{
+width: 30%;
+height: 35px;
+border-radius: 10px;
+background-color: green;
+position: relative;
+left:35px;
+top: 10px;
+}
+.split{
+width:50%;
+position:absolute;
+z-index:2;
+top:10;
+padding: -top:10px;
+}
+.right{
+position: relative;
+top: 95px;
+left:55px;
+height: 155px;
+}
+
+.left{
+width: 35%;
+left:800px;
+top: 65px;
+height:450px;
+background-color: white;
+}
+input{
+    font-family:sans-serif;
+    background:#f2f2f2;
+    width:80%;
+    border:0;
+    margin:0 0 15px;
+    padding:15px;
+    font-size:14px;
+}
+#button2
+   {
+   font-family:sans-serif;
+   background:blue;
+   width:60%;
+   border:0;
+   padding:15px;
+   color:white;
+   font-size:14px;
+   position: relative;
+   left: 45px;
+   border-radius: 26px;
+}
+</style>
+<body>
+
+<nav>
+<label class="login" style="font-size: 22px;">Landing</label>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Features</a></li>
+<li><a href="#">Reviews</a></li>
+<li><a href="#">Pricing</a></li>
+<li><a href="#">FAQ</a></li>
+<li><a href="#" id="login">Get Started</a></li>
+</ul>
+</nav>
+<div id="sdiv">
+<div class="block">
+
+</div>
+<div class="split left">
+<p style="text-align: center;font-size: 25px;padding-top: 9px;">Sign Up for Free</p>
+<div style="position: relative;left: 25px;">
+<input type="text" name="fullname" placeholder="full name" >
+<br>
+<input type="text" name="fullname" placeholder="Email" ><br>
+<input type="text" name="fullname" placeholder="Email" ><br>
+<input type="text" name="fullname" placeholder="Type" ><br>
+<button id="button2">Register</button>
+</div>
+</div>
+<div class="split right">
+<p style="color: white;font-size: 45px;text-align: left; word-spacing: 5px;letter-spacing: 5px;"> Fly makes you </p>
+<p style="color: white;font-size: 45px;text-align: left; word-spacing: 5px;letter-spacing: 5px;line-height:35px;"> faster</p>
+<p style="color: white; text-align: left;line-height:30px; margin-top: 15px; font-size: 20px;">
+New free template by <span style="color: grey;">uicookies.com.</span></a>For more template visit the <span style="color: grey;">site.</span>Lorem ipsum dolor sit amet,
+consecteur adipisicing elit.
+</p>
+<div id="but">
+<p style="color: white;text-align: center;padding-top: 10px;">SEE PRICING</p>
+</div>
+
+</div>
+    </div>
+</body>
