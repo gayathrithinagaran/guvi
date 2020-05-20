@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h1>RANDOM NUMBER</h1>
+<button onclick="rand()">click me</button>
+
+<p id="demo"></p>
+
+<script>
+
+function rand(){
+var storeArray = []
+
+function callRamdom(){
+    var randomNumber = Math.floor(Math.random() * 10);   
+    return randomNumber;
+}
+
+function randomStore(){ 
+
+    var localValue = callRamdom()
+    var status = false;
+    for(i=0;i<10; i++){
+    var bb = storeArray[i];
+        if(bb!=localValue){
+            console.log(storeArray[i]+"hhhhh"+ localValue); 
+            if(i==9){
+                status=true;        
+            }
+
+        }   
+        else
+        break;
+
+    }
+
+    if(status==true){
+
+        storeArray.push(localValue);    
+    }
+    if(storeArray.length!=5){
+        randomStore();
+    }   
+
+    return storeArray.join("");
+}
+
+
+
+document.getElementById("demo").innerHTML = randomStore();
+
+}
+</script>
+
+</body>
+</html>
