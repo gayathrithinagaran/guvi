@@ -1,20 +1,23 @@
-//1.
+// 1. CONVERT SPECIFICATION GIVEN BELOW IN IMAGE TO JAVASCRIPT OBJECT. //
 
 //Creating TechnicalSpecification as Javascript Object to store given data in the image.
 
-var TechnicalSpecification = {
-    Dimensions:{
+
+var technical Specifications= {
+    Dimensions:
+    {
         OverallLength:3500,
         OverallWidth:1600,
         OverallHeigth:1490,
         WheelBase:2360,
-        TrackWidth:{Front:1405,Rear:1400},
+        TrackWidth:{Front:1405, Rear:1400},
         MinimumTurningRadius:4.5,
         MinimumGroungClearance:170
     },
+    
     Capacities:{
-        SeatingCapacity:5,
-        FuelTankCapacity:35
+        SeatingCapacity: 5,
+        FuelTankCapacity: 35
     },
     Engine:{
         Type:"KB-Series",
@@ -30,7 +33,7 @@ var TechnicalSpecification = {
     Transmission:{Type:"5-speed MT"},
     Chassls:{
         Steering:"Rack & Pinion, Power assisted",
-        Brakes:{Front:"Ventilated discs",Rear:"Drums"},
+        Brakes:{FRONT:"Ventilated discs",REAR:"Drums"},
         Suspension:{
             Front:"MacPherson strut & coil spring",
             Rear:"Isolated trailing link & coil spring"
@@ -44,7 +47,6 @@ var TechnicalSpecification = {
         GrossVehicleWeight:1320
     }
 };
-© 2020 GitHub, Inc.
 // 1. Convert specifications given below in image to Javascript Object;
 
 //Creating TechnicalSpecification as Javascript Object to store given data in the image.
@@ -55,7 +57,8 @@ var TechnicalSpecification = {
         OverallWidth:1600,
         OverallHeigth:1490,
         WheelBase:2360,
-        TrackWidth:{Front:1405,Rear:1400},
+        TrackWidth:
+        {FRONT:1405,REAR:1400},
         MinimumTurningRadius:4.5,
         MinimumGroungClearance:170
     },
@@ -65,16 +68,18 @@ var TechnicalSpecification = {
     },
     Engine:{
         Type:"KB-Series",
-        NumberOfCylinders:3,
-        NumberOfValves:12,
+        Number Of Cylinders:3,
+        Number Of Valves:12,
         Capacity:998,
         BoreScroke:"73.0 X 79.5",
-        CompressionRatio:"10:1",
-        MaximumPower:"67/6200",
-        MaximumTorQue:"90/3500",
-        FuelDistribution:"Multipoint Injection"
+        Compression ratio:"10:1",
+        Maximum Power:"67/6200",
+        Maximum TorQue:"90/3500",
+        Fuel Distribution:"Multipoint Injection"
     },
-    Transmission:{Type:"5-speed MT"},
+    Transmission:
+    {
+        Type:"5-SPEED MT"},
     Chassls:{
         Steering:"Rack & Pinion, Power assisted",
         Brakes:{Front:"Ventilated discs",Rear:"Drums"},
@@ -86,9 +91,10 @@ var TechnicalSpecification = {
         ShockAbsorbers:"Gas filled",
         TypeTubeLess:"155/80R13"
     },
+    
     Weights:{
         KerbWeight:"860-880",
-        GrossVehicleWeight:1320
+        Gross VehicleWeight:1320
     }
 };
 
