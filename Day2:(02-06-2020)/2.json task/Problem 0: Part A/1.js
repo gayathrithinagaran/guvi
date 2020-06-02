@@ -27,5 +27,5 @@ function Add()
 //PRINT HEIGHT AND WEIGHT OF FLUFFY
 console.log(cat);
 }
-Add()
-add();
+Add();
+
