@@ -1,12 +1,16 @@
-//function to find age of auther of a specific book in library
+//FUNCTION TO FIND NODEJS AUTHOR//
 
-var findAutherAge = function(bookName){
-for(var i=0;i<library.length;i++){
-if(library[i].title===bookName){
-console.log(library[i].authorDetails.age);
+var FindAuthorAge = function(BookName){
+for(var j=0;j<library.length;j++)
+{
+if(library[j].title===BookName)
+{
+console.log(library[j].authorDetails.age);
 break;
 }
-}}
+}
+}
+
 //call function findAutherAge
 
-findAutherAge("Nodejs");
+FindAuthorAge("Nodejs");
