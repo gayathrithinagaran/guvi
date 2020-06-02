@@ -3,12 +3,14 @@
 
 //function to add email to authorDetails in library
 
-var addEmail = function(Index,emailid){
-library[Index].authorDetails["email"]= emailid;
-Console.log(library[index].authorDetails);
+var AddEmail = function(Index,Emailid)
+{
+library[Index].authorDetails["email"]= Emailid;
+Console.log( library[index].authorDetails);
+}
 }
 
 //ASSIGNING  A VALUE TO email1@gmail.com and email2@gmail.com
 
-addEmail(0,"email1@gmail.com");
-addEmail(1,"email2@gmail.com");
+AddEmail(0,"email1@gmail.com");
+AddEmail(1,"email2@gmail.com");
