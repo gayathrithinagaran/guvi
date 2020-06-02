@@ -2,9 +2,10 @@
 
 //function to update count in person2
 
-var update = function(data){
-library[0].readers[1].count=data;
-console.log(library[0].readers[1].count); // 400
+Var update = function(Data)
+{
+library[0].readers[1].count=Data;
+console.log(library[0].readers[1].count);   // 200
 }
 
-update(400);
+update(200);
