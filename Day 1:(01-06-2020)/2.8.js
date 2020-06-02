@@ -1,12 +1,15 @@
 /function to find number of readers of specific book in library
 
-var findNumOfReaders = function(bookName){
-for(var i=0;i<library.length;i++){
-if(library[i].title===bookName){
-console.log(library[i].readers.length);
+
+var FindNuumberofReaders = function(BookName){
+for(var j=0;j<library.length;j++)
+{
+if(library[j].title===BoOkName)
+{
+console.log(library[i].Readers.length);
 break;
 }
 }}
 //call function findNumOfReaders
 
-findNumOfReaders("Javascript");
+findNumOfReaders("JAVASCRIPT");
