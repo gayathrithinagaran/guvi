@@ -23,7 +23,7 @@ var myCar = {
 
 //1. Loop over the accidents array. Change atFaultForAccident from true to false.
 
-//function to change atFaultForAccident from true to false.
+//function to change atFaultForAccident from true to False.//
 
 
 function changeAtFaultForAccident(){
@@ -36,3 +36,16 @@ function changeAtFaultForAccident(){
 //call function changeAtFaultForAccident
 
 changeAtFaultForAccident();
+
+
+//2. Print the dated of my accidents//
+
+//function to print accidents dates
+function printDateOfAccidents()
+{
+    for(var i=0;i<myCar.accidents.length;i++){
+    console.log(myCar.accidents[i].date);
+    }
+}
+////call function printDateOfAccidents
+printDateOfAccidents();
