@@ -1,0 +1,18 @@
+var expected = {foo: 5, bar: 6};
+var actual = {foo: 5, bar: 6}
+
+function assertObjectsEqual(actual, expected, testName){
+var flag=1;
+ for(var i in expected){
+     if(expected[i]===actual[i])flag*=0;
+     else flag*=1;
+ }
+ if(flag===1)
+ {
+ console.log("Passed");
+ else{
+     console.log("FAILED [my test] Expected ",expected,"but got", actual);
+ }
+}
+//call function assertObjectsEqual
+assertObjectsEqual(actual, expected, 'detects that two objects are equal');
