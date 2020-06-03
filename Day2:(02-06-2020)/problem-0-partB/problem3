@@ -1,0 +1,16 @@
+//Problem 3//
+
+//Write a function called convertObjecttiList which converts an object literal into an array of arrays.
+
+var obj = {name : 'ISRO', age : 35, role: 'Scientist'};
+
+function convertListToObject(obj) {
+    var newArray=[];
+    for(var i in obj){
+        newArray.push([i,obj[i]]);
+    }
+    return newArray;
+}
+//print return value of function convertListToObject
+
+console.log(convertListToObject(obj))
