@@ -1,0 +1,16 @@
+//Write a function called “printAllValues” which returns an newArray of all the input object’s values.
+
+var obj = {name : 'RajiniKanth', age : 33, hasPets : false};
+//function to return a new array of input object values
+
+function printAllValues(obj) 
+{
+    var newArray=[];
+    for(var i in objects){
+        newArray.push(objects[i]);
+    }
+    return newArray;
+}
+//print return value of function printAllValues
+
+console.log(printAllValues(obj));
