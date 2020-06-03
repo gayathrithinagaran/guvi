@@ -1,0 +1,12 @@
+/Problem 4
+
+//Write a function ‘transformFirstAndLast’ that takes in an array, and returns an object
+
+var array = ['GUVI', 'I', 'am', 'Geek'];
+
+function transformFirstAndLast(arr) {
+    var object={}
+    object[array[0]]=array[arr.length-1];
+    return object;
+}
+console.log(transformFirstAndLast(array));
