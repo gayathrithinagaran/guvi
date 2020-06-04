@@ -1,1 +1,12 @@
 
+//4.5 Return all the palindromes in an array
+
+var arr=["geek","bat","cat","guvi"];
+
+//arrow function to filter palindrome
+var palindromeArray=array.filter(str=>{
+    var strreverse=str.split("").reverse().join("");
+    if(str===strreverse)
+    {
+    return str;});
+console.log(palindromeArr) 
