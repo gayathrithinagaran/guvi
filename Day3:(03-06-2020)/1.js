@@ -27,13 +27,20 @@ function getOpposite(num) {
     {
     return(-num);
     }
+        
+        //Fill in your code that takes an number minutes and converts it to seconds.
+
+var min = 5;
+function toSeconds(min)
+        {
+         console.log(min*60);
+         return min*60;
+        }
+        var secons = toSeconds(min)
+         toSeconds(5) //300
+          toSeconds(1) //60
+          toSeconds(2) //120
     else 
     {
     return -1;
 }
-var result = getOpposite(num);
-getOpposite(0);
-getOpposite(-5);
-getOpposite('5a');
-getOpposite(5.5);
-console.log(getOpposite(0));//0
