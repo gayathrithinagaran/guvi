@@ -1,5 +1,19 @@
 //array of elements that splits into group of size//
+//chunk(['a','b','c'])//
+let randomArray = ['a','b','c'];
+// Create an empty array.
+let arrayOfArrays = [];
+function splitArray( array ) {
+    while (array.length > 0) {
+        let arrayElement = array.splice(0,1);
+        arrayOfArrays.push(arrayElement);
+    }
+    return arrayOfArrays;
+}
 
+// Call the function while passing in an array of your choice.
+splitArray(randomArray)
+// => [ [ 3 ], [ 5 ], [ 1 ], [ 5 ], [ 7 ] ]
 //chunk([['a','b','c','d'],2);
 
 var perChunk = 2 // items per chunk    
